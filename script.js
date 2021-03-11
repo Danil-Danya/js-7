@@ -56,9 +56,19 @@ let users = [
 ];
 
 
-var fullName = users.map(ellement => (el = {fullname: ellement.name + ellement.surname + ellement.id}));
+var fullName = users.map(ellement => (ellement = {fullname: ellement.name + ellement.surname + ellement.id}));
 console.log(fullName);
 
 
 ////////////////////////////////////////////
 
+
+////////////////////////////////////////////
+
+
+const arrayArrayArray = [[14,15], [1], ['a','b','c']];
+
+arrayArrayArray.sort((a,b) => a.length - b.length);
+console.log(arrayArrayArray);
+
+///////////////////////////////////////////
